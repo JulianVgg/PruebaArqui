@@ -1,0 +1,14 @@
+services:
+  web1:
+    image: nginx:alpine
+
+  web2:
+    image: nginx:alpine
+
+  lb:
+    image: nginx:alpine
+    ports:
+      - "8080:80"
+    depends_on:
+      - web1
+      - web2
