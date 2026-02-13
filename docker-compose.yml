@@ -1,9 +1,13 @@
 services:
   web1:
     image: nginx:alpine
+    volumes:
+      - ./web1/index.html:/usr/share/nginx/html/index.html:ro
 
   web2:
     image: nginx:alpine
+    volumes:
+      - ./web2/index.html:/usr/share/nginx/html/index.html:ro
 
   lb:
     image: nginx:alpine
