@@ -41,8 +41,8 @@ export default function App() {
 
         <h1 className="title">Deployment Dashboard</h1>
         <p className="subtitle">
-          A simple static web app built with <b>React + Vite</b>, ready for Docker and CI/CD
-          deployment.
+          A simple static web app built with <b>React + Vite</b>, ready for
+          Docker and CI/CD deployment.
         </p>
 
         <div className="actions">
@@ -79,8 +79,8 @@ export default function App() {
           <div className="sectionHeader">
             <h2 className="sectionTitle">Features</h2>
             <p className="sectionDesc">
-              This page is static by design. The goal is to practice build, Dockerization,
-              and deployment through a pipeline.
+              This page is static by design. The goal is to practice build,
+              Dockerization, and deployment through a pipeline.
             </p>
           </div>
 
@@ -101,7 +101,8 @@ export default function App() {
           <div className="sectionHeader">
             <h2 className="sectionTitle">Deployment Status</h2>
             <p className="sectionDesc">
-              Replace the placeholders below once your AWS environment is created.
+              Replace the placeholders below once your AWS environment is
+              created.
             </p>
           </div>
 
@@ -126,7 +127,8 @@ export default function App() {
             <div className="divider" />
 
             <div className="hint">
-              Tip: Once deployed, update the link above and add screenshots in the README.
+              Tip: Once deployed, update the link above and add screenshots in
+              the README.
             </div>
           </div>
         </section>
@@ -134,7 +136,8 @@ export default function App() {
 
       <footer className="footer">
         <span className="muted">
-          Built with React + Vite • Static UI • Prepared for Docker & AWS Beanstalk
+          Built with React + Vite • Static UI • Prepared for Docker & AWS
+          Beanstalk
         </span>
       </footer>
     </div>
