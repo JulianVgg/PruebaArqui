@@ -1,0 +1,8 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "469178993235.dkr.ecr.us-east-1.amazonaws.com/assignment-03:latest",
+    "Update": "true"
+  },
+  "Ports": [{ "ContainerPort": "80" }]
+}
