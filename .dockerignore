@@ -1,0 +1,18 @@
+node_modules
+dist
+
+.git
+.github
+
+*.log
+.DS_Store
+
+# carpetas que no se usan para este build
+lb
+web1
+web2
+lb/node_modules
+@latest/.vite
+
+@latest/node_modules
+@latest/dist
