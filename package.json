@@ -1,7 +1,7 @@
 {
   "name": "assignment-05",
   "private": true,
-  "packageManager": "pnpm@10",
+  "packageManager": "pnpm@10.11.0",
   "scripts": {
     "dev:frontend": "pnpm --filter frontend dev",
     "dev:backend": "pnpm --filter backend dev",
