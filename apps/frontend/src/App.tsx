@@ -29,7 +29,7 @@ function App() {
     loadItems();
   }, []);
 
- const handleSubmit = async (e: React.FormEvent) => {
+const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
 
     if (!name.trim()) {
