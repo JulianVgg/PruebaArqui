@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import swaggerUi from "swagger-ui-express";
 import { openApiDocument } from "./openapi.js";
+import itemsRouter from "./routes/items.routes.js";
 
 const app = express();
 
@@ -21,6 +22,7 @@ app.get("/health", (_req, res) => {
   });
 });
 
+app.use("/api/items", itemsRouter);
 app.use("/docs", swaggerUi.serve, swaggerUi.setup(openApiDocument));
 
 export default app;
