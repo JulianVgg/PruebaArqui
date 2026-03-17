@@ -1,3 +1,6 @@
+const SERVER_URL =
+  process.env.BACKEND_PUBLIC_URL || "http://localhost:3000";
+
 export const openApiDocument = {
   openapi: "3.0.0",
   info: {
@@ -7,7 +10,7 @@ export const openApiDocument = {
   },
   servers: [
     {
-      url: "http://localhost:3000"
+      url: SERVER_URL
     }
   ],
   paths: {
